@@ -1,5 +1,4 @@
-// Name : Khawaja Abdul Hafeez 
-//Roll:L1F25BSCS1003
+
 #include <iostream>
 using namespace std;
 
@@ -13,6 +12,8 @@ int main() {
 
     cout << "Sum of first 50 Natural Numbers are:-" << sum << endl;
 
-  
+    int n1 = (n + 1) / 2;
+    cout << "Sum using formula n(n+1)/2: " << n1 << endl;
+
     return 0;
 }
